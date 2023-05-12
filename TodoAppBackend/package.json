@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --exec ts-node src/server.ts",
-    "start": "npx tsc && node dist/src/server.js"
+    "start": "node dist/src/server.js",
+    "build": "npx tsc"
   },
   "dependencies": {
     "@prisma/client": "^4.13.0",
